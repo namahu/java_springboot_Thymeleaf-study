@@ -1,7 +1,7 @@
 package com.example.taskdemo.repository;
 
-import com.example.taskdemo.model.Task;
-import com.example.taskdemo.repository.mapper.TaskMapper;
+import com.example.taskdemo.entity.Task;
+import com.example.taskdemo.mapper.TaskMapper;
 import java.util.List;
 import org.springframework.stereotype.Repository;
 

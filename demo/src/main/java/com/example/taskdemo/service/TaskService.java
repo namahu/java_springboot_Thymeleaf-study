@@ -1,6 +1,8 @@
 package com.example.taskdemo.service;
 
-public interface TaskService {
+import com.example.taskdemo.entity.Task;
+import java.util.List;
 
+public interface TaskService {
   List<Task> findAll();
 }

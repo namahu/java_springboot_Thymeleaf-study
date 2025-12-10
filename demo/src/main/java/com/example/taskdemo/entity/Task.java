@@ -7,13 +7,13 @@ public class Task {
   private int id;
   private String title;
   private String description;
-  private LocalDateTime dueDate;
+  private LocalDateTime due_date;
   private String status;
   private boolean isDeleted;
   private boolean isCompleted;
-  private LocalDateTime createdAt;
-  private LocalDateTime updatedAt;
-  private LocalDateTime deletedAt;
+  private LocalDateTime created_at;
+  private LocalDateTime updated_at;
+  private LocalDateTime delete_at;
 
   public int getId() {
     return id;
@@ -28,7 +28,7 @@ public class Task {
   }
 
   public LocalDateTime getDueDate() {
-    return dueDate;
+    return due_date;
   }
 
   public String getStatus() {
@@ -44,15 +44,15 @@ public class Task {
   }
 
   public LocalDateTime getCreatedAt() {
-    return createdAt;
+    return created_at;
   }
 
   public LocalDateTime getUpdatedAt() {
-    return updatedAt;
+    return updated_at;
   }
 
   public LocalDateTime getDeletedAt() {
-    return deletedAt;
+    return delete_at;
   }
 
   public void setId(int id) {
@@ -68,7 +68,7 @@ public class Task {
   }
 
   public void setDueDate(LocalDateTime dueDate) {
-    this.dueDate = dueDate;
+    this.due_date = dueDate;
   }
 
   public void setStatus(String status) {
@@ -84,14 +84,14 @@ public class Task {
   }
 
   public void setCreatedAt(LocalDateTime createdAt) {
-    this.createdAt = createdAt;
+    this.created_at = createdAt;
   }
 
   public void setUpdatedAt(LocalDateTime updatedAt) {
-    this.updatedAt = updatedAt;
+    this.updated_at = updatedAt;
   }
 
   public void setDeletedAt(LocalDateTime deletedAt) {
-    this.deletedAt = deletedAt;
+    this.delete_at = deletedAt;
   }
 }
